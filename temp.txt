@@ -1,0 +1,4 @@
+e70b5f56f06b0c8de7d29fe2cb2b2bd7 open weather api key
+
+
+https://api.openweathermap.org/data/2.5/weather?lat=44.772182&lon=17.191000&lang=hr&units=metric&exclude=minutely&appid=e70b5f56f06b0c8de7d29fe2cb2b2bd7

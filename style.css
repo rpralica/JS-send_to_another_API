@@ -1,0 +1,67 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .search-container {
+      position: relative;
+      
+    }
+
+    #search {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      max-height: 200px;
+      overflow-y: auto;
+      display: none;
+      z-index: 1000;
+    }
+
+    .dropdown-menu.visible {
+      display: block;
+    }
+
+    .dropdown-item {
+      padding: 10px;
+      cursor: pointer;
+      border-bottom: 1px solid #f1f1f1;
+    }
+
+    .dropdown-item:hover {
+      background-color: #f0f0f0;
+    }
+
+    .dropdown-item:last-child {
+      border-bottom: none;
+    }
+
+    #selected-city {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+    }
